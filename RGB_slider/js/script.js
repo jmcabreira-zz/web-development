@@ -1,4 +1,6 @@
 var input = document.querySelectorAll('input');
+console.log(input);
+
 for (var i = 0; i < input.length; i++) {
   input[i].addEventListener('input', function () {
     var red = document.getElementById('red').value,
@@ -6,6 +8,6 @@ for (var i = 0; i < input.length; i++) {
       blue = document.getElementById('blue').value;
 
     var display = document.getElementById('display');
-    display.style.background = 'rgb(' + red + ', ' + geen + ', ' + blue + ')';
+    display.style.background = 'rgb(' + red + ',' + green + ',' + blue + ')';
   });
 }
