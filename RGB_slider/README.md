@@ -5,8 +5,8 @@
 This is the repo in which I post my web dev projects
 
 # Projects :
- - In this project...
- 
+ - RGB slider with JavaScript, CSS and HTML
+
   	
 
 
